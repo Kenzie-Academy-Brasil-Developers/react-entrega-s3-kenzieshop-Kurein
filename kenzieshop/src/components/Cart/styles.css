@@ -39,3 +39,9 @@
   padding: 8px;
   border-radius: 5px;
 }
+.valueDiv > button:hover {
+  cursor: pointer;
+}
+.valueDiv > button:active {
+  opacity: 0.9;
+}
