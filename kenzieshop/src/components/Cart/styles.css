@@ -1,0 +1,41 @@
+.homeButton {
+  width: 30%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: none;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  padding: 15px;
+}
+.homeButton:hover {
+  cursor: pointer;
+}
+.homeButton:active {
+  opacity: 0.9;
+}
+
+.cartMainDiv__products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.valueDiv {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+}
+.valueDiv > p {
+  background-color: white;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.valueDiv > button {
+  border: none;
+  background-color: cornflowerblue;
+  padding: 8px;
+  border-radius: 5px;
+}

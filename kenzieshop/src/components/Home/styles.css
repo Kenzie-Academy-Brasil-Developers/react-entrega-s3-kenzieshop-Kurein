@@ -1,0 +1,25 @@
+.homeMainDiv {
+  display: flex;
+  flex-direction: column;
+}
+.homeMainDiv > button {
+  width: 30%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: none;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  padding: 15px;
+}
+.homeMainDiv > button:hover {
+  cursor: pointer;
+}
+.homeMainDiv > button:active {
+  opacity: 0.9;
+}
+
+.homeMainDiv__products {
+  display: flex;
+  flex-wrap: wrap;
+}

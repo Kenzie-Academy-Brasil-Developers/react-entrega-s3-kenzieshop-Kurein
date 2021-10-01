@@ -1,0 +1,37 @@
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.productCard {
+  width: 80%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.productCard > button {
+  border: none;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 10px;
+}
+.productCard > button:hover {
+  cursor: pointer;
+}
+.productCard > button:active {
+  opacity: 0.9;
+}
+
+@media only screen and (min-width: 768px) {
+  .productCard {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .productCard {
+    width: 30%;
+  }
+}
